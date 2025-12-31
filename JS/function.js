@@ -10,6 +10,8 @@
 // }
 // accName()
 
+// Arrow Function -->
+
 // const firstName = () => {
 //     let msg = "Hello Ji"
 //     console.log(this)
@@ -22,3 +24,15 @@
 // }
 
 // console.log(calculateNum(100, 200, 300, 400, 500, 600))
+
+const obj = {
+    name : 'Ashutosh',
+    age : 25,
+    Designation : 'Software Engineer',
+
+    newage(){
+        console.log("I am function")
+    }
+}
+
+console.log(`obj of name is: ${obj.newage()}`);
